@@ -79,6 +79,11 @@ article ul {
 
 .references {
 	display: flex;
+	flex-wrap: wrap;
+}
+
+.references article {
+	width: 50%;
 }
 
 /*
