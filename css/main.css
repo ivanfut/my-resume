@@ -1,3 +1,12 @@
+/*  --------- LAYOUT ---------  */
+
+.main-container {
+	display: flex;
+	width: 1200px;
+}
+
+
+
 /*  --------- GENERAL ---------  */
 
 ul {
@@ -9,6 +18,8 @@ ul {
 /*  --------- ASIDE ---------  */
 aside {
 	background-color: #647087;
+	width: 30%;
+	margin-right: 3%;
 }
 
 aside * {
@@ -37,7 +48,7 @@ main section h2 {
 
 .hero {
 	background-color: #F7DDC3;
-	box-shadow: 3px 3px 30px 5px #647087 inset;
+	box-shadow: 2px 2px 40px 1px #647087 inset;
 }
 
 .hero h2 {
@@ -63,6 +74,13 @@ article h4 {
 article ul {
 	list-style-type: square;
 }
+
+/*  --------- REFERENCES ---------  */
+
+.references {
+	display: flex;
+}
+
 /*
 * {
 	color: blue;
