@@ -151,6 +151,17 @@ dt {
 }
 
 
+/*  SOCIAL */
+
+.fb::before {
+	content: "\f02d";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+
+.social-item::before {
+	padding-right: 15px;
+}
 /*
 * {
 	color: blue;
